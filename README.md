@@ -105,7 +105,7 @@ In order to improve the explore if the model is applicable, the fit is shown rep
 
 | ![Cryptocurrency fit_peak](img/Cryptocurrency_FOMO-FUD_%28jan%20peak%29.png) |
 | :----------------------------------------------------------: |
-| **Figure 5.** *Fit to the December 2017- January 2018 peak* |
+| **Figure 6.** *Fit to the December 2017- January 2018 peak* |
 
 Personally, I find it astounding how well the median prediction line (shown in Figure 6 by the thick black curve) matches the 31-day (central) moving average of the Google Trends data. Moreover, in contrast to Figure 5, the width of the 95% prediction interval in Figure 6 is more congruent with the distribution of the raw data.
 
