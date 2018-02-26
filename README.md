@@ -12,7 +12,7 @@ I believe there are valid uses for block-chain and distributed ledger technology
 
 ### Background
 
-I think that everyone even vaguely interested in the topic is aware of what is happening in Crypto right now (first two months of 2018). After a massive *bull run* starting in last November and culminating early in January, with Bitcoin reaching an *all time high* of ~20k USD on December 17, the market was hit with a seemingly relentless decline. The Bitcoin value more than halved, but has recently recovered back up in the ~10k USD range. The situation follows a [trend](https://medium.com/@Crypto_Sarah9/bitcoin-has-corrected-every-year-between-4th-and-15th-of-january-e624864ba571) that repeats more or less each year like clockwork.
+I think that everyone even vaguely interested in the topic is aware of what is happening in Crypto right now (first two months of 2018). After a massive *bull run* starting in last November and culminating early in January, with Bitcoin reaching an *all time high* of ~20k USD on December 17, the market was hit with a seemingly relentless decline. The Bitcoin value more than halved, but has recently recovered back into the ~10k USD range. The situation follows a [trend](https://medium.com/@Crypto_Sarah9/bitcoin-has-corrected-every-year-between-4th-and-15th-of-january-e624864ba571) that repeats more or less each year like clockwork.
 
 The question is, is this year any different? Is this really the final popping of the bubble? Or is the growth of Crypto better described by a [(hyper-sensitive) S-Curve of Technological Adoption, which is itself characterized by fractally repeating, exponentially increasing Gartner Hype Cycles](https://medium.com/@mcasey0827/speculative-bitcoin-adoption-price-theory-2eed48ecf7da)?
 
