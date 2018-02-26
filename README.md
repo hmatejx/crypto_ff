@@ -127,4 +127,4 @@ Stay tuned ;-)
 
 No. Even after this exercise, I am still a believer in future adoption. For me, this was just an exploration of ideas in a well defined, simplified sandbox. 
 
-Lastly, I take all my models predicting the future with a huge grain of salt (and making models *is* my daily bread and butter!). The future cannot be predicted as much as it can be influenced.
+Lastly, I take all my models predicting the future with a huge grain of salt (and making models *is* my daily bread and butter!). After all. the future cannot be predicted as much as it can be influenced.
