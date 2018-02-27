@@ -101,7 +101,7 @@ Two things can be noticed immediately. The minor bubbles of June and September (
 
 ### Describing the shape of the main peak
 
-In order to improve the explore if the model is applicable, the fit is shown repeated (Figure 6) by considering only data from 2017-10-01 onwards, therefore excluding the two pre-peaks. In addition, the variability model has been replaced by a log-normal distribution, which cannot go below zero and has been found to more closely describe the distribution of the scatter in this particular case.
+In order to explore if the model is applicable in a more narrowly defined setting, the fit is shown repeated (Figure 6) by considering only data from 2017-10-01 onwards, therefore excluding the two pre-peaks. In addition, the variability model has been replaced by a log-normal distribution, which cannot go below zero and has been found to more closely describe the distribution of the scatter in this particular case.
 
 | ![Cryptocurrency fit_peak](img/Cryptocurrency_FOMO-FUD_%28jan%20peak%29.png) |
 | :----------------------------------------------------------: |
