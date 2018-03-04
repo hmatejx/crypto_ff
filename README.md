@@ -123,7 +123,7 @@ I will try to make regular weekly updates below, unless my busy schedule prohibi
 
 #### Week 1
 
-| ![Cryptocurrency fit_peak](img/Model_test_w01.png) |
+| ![Cryptocurrency fit_peak](img/Model_test_W01.png) |
 | :----------------------------------------------------------: |
 | **Figure 7.** *Model testing (week 01):  2018/02/22 — 2018/03/08* |
 
