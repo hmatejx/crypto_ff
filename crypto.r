@@ -10,6 +10,7 @@ library(gtrendsR)
 
 # load data (stitch together multiple shorter time periods)
 startDate <- "2017-01-01"
+endDate <- "2018-02-21"
 keyword <- "Cryptocurrency"
 dd <- gtrends(keyword, time = paste(as.Date(startDate) + 0, as.Date(startDate) + 90))$interest_over_time[, 1:2]
 dd$block <- 0
@@ -29,7 +30,7 @@ dd$Popularity <- 100 * dd$Popularity / max(dd$Popularity)
 dd$Date <- as.Date(dd$Date)
 dd <- dd[dd$Popularity > 0, ]
 
-dd <- dd[!(dd$Date < as.Date("2017-10-01")), ]
+dd <- dd[!(dd$Date < as.Date("2017-10-01") | dd$Date > as.Date(endDate)), ]
 
 # prepare list to serve as data for STAN
 fit_data <- list(T = nrow(dd),
@@ -43,7 +44,7 @@ warmup <- 400
 nChains <- 4
 
 # fit data with STAN
-fit <- stan(file = "../model/crypto.stan",
+fit <- stan(file = "model/crypto.stan",
             data = fit_data,
             iter = iter,
             init = rep(list(list(sigma = 0.2, 
@@ -67,6 +68,7 @@ print(fit, pars = c("sigma", "beta", "nu", "N", "S0", "I0", "R0"), digits_summar
 Y_pred <- t(apply(extract(fit, "Y_pred", permuted = F), 3, quantile, prob = c(0.025, 0.5, 0.975)))
 N_pred <- nrow(Y_pred)
 Time_pred <- dd$Date[1] + (1:N_pred)*(dd$Date[2] - dd$Date[1])
+save(Y_pred, N_pred, Time_pred, file="fit.RData")
 plot(Time_pred, rep(NA, 2*nrow(dd)), ylim = c(0, max(Y_pred, Y_meas)),
      xlab = "Date", ylab = "Normalized popularity", 
      main = "Cryptocurrency popularity modeled by FOMO/FUD")

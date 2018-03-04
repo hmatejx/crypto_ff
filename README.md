@@ -119,9 +119,15 @@ One way to utilize the my result above is to monitor the Google Trends data for 
 
 On the other hand, a sustained break-out upwards of the gray zone would indicate the December-January peak was indeed a bubble, but a bubble which has been overlaid on the background of slower rising S-curve of technological adoption. And if this is the case, we may see similar but even larger bubbles in the future (unless this is the last one before the hypothesized plateau of productivity, which I doubt given the currently negligible size of the total Crypto market in comparison to [other established markets](https://www.visualcapitalist.com/worlds-money-markets-one-visualization-2017/)).
 
-I will try to make regular weekly updates, unless my busy schedule prohibits it.
+I will try to make regular weekly updates below, unless my busy schedule prohibits it.
 
-Stay tuned ;-)
+#### Week 1
+
+| ![Cryptocurrency fit_peak](img/Model_test_w01.png) |
+| :----------------------------------------------------------: |
+| **Figure 7.** *Model testing (week 01):  2018/02/22 — 2018/03/08* |
+
+The red dots remain within the gray band. Even though they are all above the median, we should wait for more data before confirming a breakout.
 
 ### So, does this change my mind?
 
