@@ -18,7 +18,7 @@ The question is, is this year any different? Is this really the [final popping o
 
 Is is well established that the trend in frequency of google searches for "bitcoin", "buy bitcoin", "crypto", "cryptocurrency", and similar, is a leading indicators of corresponding price changes.
 
-Figure 1 below shows the frequency of google searches for "Cryptocurrency" keyword in the past 12 months. Similarly, Figure 2 shows the corresponding total market cap of all cryptocurrencies. The similarity of the two curves is obvious. Also, if you look carefully, you can notice a slight lag of the market cap curve.
+Figure 1 below shows the frequency of google searches for "Cryptocurrency" keyword in the past 12 months. Similarly, Figure 2 shows the corresponding total market cap of all cryptocurrencies. The similarity of the two curves is obvious. ~~Also, if you look carefully, you can notice a slight lag of the market cap curve.~~ I've checked for any lag between the two curves, but the cross correlation function has a maximum at zero lag. At the moment, it is difficult discern any causality from this comparison.
 
 |      ![](img/Cryptocurrency%20-%20Google%20Trends.png)       |
 | :----------------------------------------------------------: |
@@ -110,6 +110,12 @@ In order to explore if the model is applicable in a more narrowly defined settin
 Personally, I find it astounding how well the median prediction line (shown in Figure 6 by the thick black curve) matches the 31-day (central) moving average of the Google Trends data. Moreover, in contrast to Figure 5, the width of the 95% prediction interval in Figure 6 is more congruent with the distribution of the raw data.
 
 What is especially significant to me is the tightening of the prediction interval over the next months, providing an extremely sensitive setting for testing the theory by new data in the near future.
+
+### Pitfalls of the approach
+
+This approach implicitly assumes that the public interest drives the underlying value, and not vice versa. In reality, there are time periods where interest lags (chases) the change in value. On the other hand, there are periods where the change in value reflect a spike in public interest.
+
+This indicates that a much more comprehensive system of equations needs to be developed to capture elements of this complex and inter-dependent dynamics.
 
 ### Quo vadis, crypto?
 
