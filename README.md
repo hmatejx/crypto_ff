@@ -16,9 +16,11 @@ I think that everyone even vaguely interested in the topic is aware of what is h
 
 The question is, is this year any different? Is this really the [final popping of the bubble](https://www.nytimes.com/2018/01/29/opinion/bitcoin-bubble-fraud.html)? Or is the growth of Crypto better described by a [(hyper-sensitive) S-Curve of Technological Adoption, which is itself characterized by fractally repeating, exponentially increasing Gartner Hype Cycles](https://medium.com/@mcasey0827/speculative-bitcoin-adoption-price-theory-2eed48ecf7da)?
 
-Is is well established that the trend in frequency of google searches for "bitcoin", "buy bitcoin", "crypto", "cryptocurrency", and similar, is a leading indicators of corresponding price changes.
+Is is speculated that the trend in frequency of google searches for "bitcoin", "buy bitcoin", "crypto", "cryptocurrency", and similar, is a leading indicator of corresponding price changes.
 
-Figure 1 below shows the frequency of google searches for "Cryptocurrency" keyword in the past 12 months. Similarly, Figure 2 shows the corresponding total market cap of all cryptocurrencies. The similarity of the two curves is obvious. ~~Also, if you look carefully, you can notice a slight lag of the market cap curve.~~ I've checked for any lag between the two curves, but the cross correlation function has a maximum at zero lag. At the moment, it is difficult discern any causality from this comparison.
+Figure 1 below shows the frequency of google searches for "Cryptocurrency" keyword in the past 12 months. Similarly, Figure 2 shows the corresponding total market cap of all cryptocurrencies. The similarity of the two curves is obvious. 
+
+I've checked for the presence of lag between the two curves, but the [cross correlation function](img/cross-correlation.png) has a maximum at zero lag. At the moment, it is difficult discern any causality from this comparison. The cross-correlation function does show slightly higher values for negative values of the lag (indicating that people searching for Crypto precedes the increase in price slightly more often then the other way around).
 
 |      ![](img/Cryptocurrency%20-%20Google%20Trends.png)       |
 | :----------------------------------------------------------: |
@@ -127,7 +129,13 @@ On the other hand, a sustained break-out upwards of the gray zone would indicate
 
 I will try to make regular weekly updates below, unless my busy schedule prohibits it.
 
-#### Week 1
+### So, does this change my mind?
+
+No. Even after this exercise, I am still a believer in future adoption. For me, this was just an exploration of ideas in a well defined, simplified sandbox. 
+
+Lastly, I take all my models predicting the future with a huge grain of salt (and making models *is* my daily bread and butter!). After all. the future cannot be predicted as much as it can be influenced.
+
+#### Week 1 test
 
 | ![Cryptocurrency fit_peak](img/Model_test_W01.png) |
 | :----------------------------------------------------------: |
@@ -135,8 +143,16 @@ I will try to make regular weekly updates below, unless my busy schedule prohibi
 
 The red dots remain within the gray band. Even though they are all above the median, we should wait for more data before confirming a breakout.
 
-### So, does this change my mind?
+#### Week 2 test
 
-No. Even after this exercise, I am still a believer in future adoption. For me, this was just an exploration of ideas in a well defined, simplified sandbox. 
+| ![Cryptocurrency fit_peak](img/Model_test_W02.png) |
+| :----------------------------------------------------------: |
+| **Figure 8.** *Model testing (week 02):  2018/03/04 — 2018/03/10* |
 
-Lastly, I take all my models predicting the future with a huge grain of salt (and making models *is* my daily bread and butter!). After all. the future cannot be predicted as much as it can be influenced.
+**There is a breakout!** But it could also be just negative publicity connected to news about the MtGox BTC being sold by the trustee.... I guess next weak will show is this will revert back to the expectation, or if the break-out is indeed sustained, and the next phase of growth is starting.
+
+### Changelog
+
+- **February 26.** Initial GitHub pages version.
+- **March 4.** Week 1 test, minor edits, spelling corrections.
+- **March 10.** Week 2 test, removed the erroneous "well established" claim about the leading/lagging (I should have researched more instead of blindly believing what I read).
