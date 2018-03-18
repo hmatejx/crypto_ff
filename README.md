@@ -151,8 +151,17 @@ The red dots remain within the gray band. Even though they are all above the med
 
 **There is a breakout!** But it could also be just negative publicity connected to news about the MtGox BTC being sold by the trustee.... I guess next weak will show is this will revert back to the expectation, or if the break-out is indeed sustained, and the next phase of growth is starting.
 
+#### Week 3 test
+
+| ![Cryptocurrency fit_peak](img/Model_test_W03.png) |
+| :----------------------------------------------------------: |
+| **Figure 8.** *Model testing (week 02):  2018/03/11 — 2018/03/17* |
+
+**The breakout continues!** However, the prices are still falling at an increased rate. Perhaps an issue with using Google Trends data for this purpose is that it ignores the sentiment. The recent spike in interest could also be related to the negative publicity, which has heavily increased lately.
+
 ### Changelog
 
 - **February 26.** Initial GitHub pages version.
 - **March 4.** Week 1 test, minor edits, spelling corrections.
 - **March 10.** Week 2 test, removed the erroneous "well established" claim about the leading/lagging (I should have researched more instead of blindly believing what I read).
+- **March 17.** Week 3 test.
