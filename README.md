@@ -139,7 +139,7 @@ Lastly, I take all my models predicting the future with a huge grain of salt (an
 
 | ![Cryptocurrency fit_peak](img/Model_test_W01.png) |
 | :----------------------------------------------------------: |
-| **Figure 7.** *Model testing (week 01):  2018/02/22 — 2018/03/08* |
+| **Figure 7.** *Model testing (week 1):  2018/02/22 — 2018/03/08* |
 
 The red dots remain within the gray band. Even though they are all above the median, we should wait for more data before confirming a breakout.
 
@@ -147,7 +147,7 @@ The red dots remain within the gray band. Even though they are all above the med
 
 | ![Cryptocurrency fit_peak](img/Model_test_W02.png) |
 | :----------------------------------------------------------: |
-| **Figure 8.** *Model testing (week 02):  2018/03/04 — 2018/03/10* |
+| **Figure 8.** *Model testing (week 2):  2018/03/04 — 2018/03/10* |
 
 **There is a breakout!** But it could also be just negative publicity connected to news about the MtGox BTC being sold by the trustee.... I guess next weak will show is this will revert back to the expectation, or if the break-out is indeed sustained, and the next phase of growth is starting.
 
@@ -155,9 +155,17 @@ The red dots remain within the gray band. Even though they are all above the med
 
 | ![Cryptocurrency fit_peak](img/Model_test_W03.png) |
 | :----------------------------------------------------------: |
-| **Figure 8.** *Model testing (week 02):  2018/03/11 — 2018/03/17* |
+| **Figure 8.** *Model testing (week 3):  2018/03/11 — 2018/03/17* |
 
 **The breakout continues!** However, the prices are still falling at an increased rate. Perhaps an issue with using Google Trends data for this purpose is that it ignores the sentiment. The recent spike in interest could also be related to the negative publicity, which has heavily increased lately.
+
+#### Week 4 test
+
+| ![Cryptocurrency fit_peak](img/Model_test_W04.png) |
+| :----------------------------------------------------------: |
+| **Figure 8.** *Model testing (week 4):  2018/03/18 — 2018/03/24* |
+
+Similar to week 3, the both the prices and the interest are going sideways.
 
 ### Changelog
 
@@ -165,3 +173,4 @@ The red dots remain within the gray band. Even though they are all above the med
 - **March 4.** Week 1 test, minor edits, spelling corrections.
 - **March 10.** Week 2 test, removed the erroneous "well established" claim about the leading/lagging (I should have researched more instead of blindly believing what I read).
 - **March 17.** Week 3 test.
+- **March 25.** Week 4 test.
