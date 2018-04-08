@@ -10,13 +10,13 @@ endDate <- "2018-02-21"
 keyword <- "Cryptocurrency"
 dd <- gtrends(keyword, time = paste(as.Date(startDate) + 0, as.Date(startDate) + 90))$interest_over_time[, 1:2]
 dd$block <- 0
-for (i in 1:4) {
+for (i in 1:5) {
   period <- paste(as.Date(startDate) + i*90, min(Sys.Date(), as.Date(startDate) + (i + 1)*90))
   cat("period =", period, "\n")
   dd <- rbind(dd, cbind(gtrends(keyword, time = period)$interest_over_time[, 1:2], block = i))
 }
 names(dd)[1:2] <- c("Date", "Popularity")
-for (b in 1:4) {
+for (b in 1:5) {
   bc <- which(dd$block == b)
   bp <- which(dd$block == b - 1)
   dd[bc, 2] <- dd[bc, 2] * dd[bp[length(bp)], 2] / dd[bc[1], 2]
