@@ -137,7 +137,7 @@ Lastly, I take all my models predicting the future with a huge grain of salt (an
 
 #### Week 6 test
 
-| ![Cryptocurrency fit_peak](img/Model_test_W04.png) |
+| ![Cryptocurrency fit_peak](img/Model_test_W07.png) |
 | :----------------------------------------------------------: |
 | **Figure 8.** *Model testing (week 7):  2018/04/15 — 2018/04/09* |
 
