@@ -139,7 +139,7 @@ Lastly, I take all my models predicting the future with a huge grain of salt (an
 
 | ![Cryptocurrency fit_peak](img/Model_test_W04.png) |
 | :----------------------------------------------------------: |
-| **Figure 8.** *Model testing (week 4):  2018/03/18 — 2018/03/24* |
+| **Figure 8.** *Model testing (week 7):  2018/04/15 — 2018/04/09* |
 
 The interest definitely remains outside of the prediction band, however a slight declining trend is still visible.
 
@@ -150,4 +150,5 @@ The interest definitely remains outside of the prediction band, however a slight
 - **March 10.** Week 2 test, removed the erroneous "well established" claim about the leading/lagging (I should have researched more instead of blindly believing what I read).
 - **March 17.** Week 3 test.
 - **March 25.** Week 4 test.
-- **April 4.** Week 6 test.
+- **April 8.** Week 6 test.
+- **April 15.** Week 7 test.
