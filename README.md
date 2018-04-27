@@ -1,4 +1,3 @@
-# Is Crypto a bubble?
 
 This project documents my thoughts on the recent unprecedented rise in crypto-currency hype.
 
@@ -137,9 +136,9 @@ Lastly, I take all my models predicting the future with a huge grain of salt (an
 
 #### Week 6 test
 
-| ![Cryptocurrency fit_peak](img/Model_test_W07.png) |
+|      ![Cryptocurrency fit_peak](img/Model_test_W09.png)      |
 | :----------------------------------------------------------: |
-| **Figure 8.** *Model testing (week 7):  2018/04/15 — 2018/04/09* |
+| **Figure 8.** *Model testing (week 9):  2018/04/23 — 2018/04/27* |
 
 The interest definitely remains outside of the prediction band, however a slight declining trend is still visible.
 
@@ -152,3 +151,4 @@ The interest definitely remains outside of the prediction band, however a slight
 - **March 25.** Week 4 test.
 - **April 8.** Week 6 test.
 - **April 15.** Week 7 test.
+- **April 27.** Week 9 test.
