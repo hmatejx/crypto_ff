@@ -134,13 +134,13 @@ No. Even after this exercise, I am still a believer in future adoption. For me, 
 
 Lastly, I take all my models predicting the future with a huge grain of salt (and making models *is* my daily bread and butter!). After all. the future cannot be predicted as much as it can be influenced.
 
-#### Week 6 test
+#### Week 9 test
 
 |      ![Cryptocurrency fit_peak](img/Model_test_W09.png)      |
 | :----------------------------------------------------------: |
 | **Figure 8.** *Model testing (week 9):  2018/04/23 — 2018/04/27* |
 
-The interest definitely remains outside of the prediction band, however a slight declining trend is still visible.
+The interest definitely remains outside of the prediction band, however there is a hint of an upward trend emerging!
 
 ### Changelog
 
